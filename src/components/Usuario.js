@@ -8,12 +8,22 @@ export default function Usuario() {
 
     function trocarFtPerfil(){
         const linkImagem = prompt("Insira o Link da sua imagem de perfil")
-        setImagem(linkImagem)
+        if(!linkImagem){
+
+        }else {
+            setImagem(linkImagem)
+        }
+        
     }
 
     function trocarNome(){
         const nomePerfil = prompt("Qual nome deseja usar?")
-        setNome(nomePerfil)
+        if(!nomePerfil){
+
+        }else {
+            setNome(nomePerfil)
+        }
+        
 
     }
 
