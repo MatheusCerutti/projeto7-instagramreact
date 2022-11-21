@@ -96,7 +96,7 @@ function Post(props) {
 
             <div class="curtidas">
                 <img src={props.imagemcurtiu} />
-                <div class="texto" data-test="like-numbers">
+                <div class="texto" data-test="likes-number">
                     Curtido por <strong>{props.nomecurtiu}</strong> e <strong>outras {numeroLikes} pessoas</strong>
                 </div>
             </div>
